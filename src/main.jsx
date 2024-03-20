@@ -9,6 +9,8 @@ import Contact from './pages/Contact.jsx'
 import Profile from './pages/Profile.jsx'
 import Cart from './pages/Cart.jsx'
 import Layout from './Layout.jsx'
+import Signup from './components/Signup.jsx'
+import Login from './components/Login.jsx'
 
 
 const router = createBrowserRouter(
@@ -18,7 +20,8 @@ const router = createBrowserRouter(
       <Route path ="/about" element={<About/>}/>
       <Route path ="/contact" element={<Contact/>}/>
       <Route path ="/profile" element={<Profile/>}/>
-      <Route path ="/cart" element={<Cart/>}/>
+      <Route path ="/signup" element={<Signup/>}/>
+      <Route path ="/login" element={<Login/>}/>
       </Route>
   )
 )
